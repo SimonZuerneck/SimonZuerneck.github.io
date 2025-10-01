@@ -13,7 +13,7 @@ I hold an M.Sc. in Economics from the University of Helsinki, Finland, and a B.S
 
 I have previously worked as a Research Assistant at the Institute for Applied Economic Research in Tübingen and completed internships at the ifo Center for the Economics of Education in Munich and at Deutsche Bundesbank (German Federal Bank)
 
-I am based in Bergen, Norway, but during the semester break, you can find me in Frankfurt, Germany, and occasionally in Athens, Greece. Feel free to reach out at [Simon.Zuerneck@nhh.no](mailto:Simon.Zuerneck@nhh.no]).
+I am based in Bergen, Norway, but during the semester break, you can find me in Frankfurt, Germany, and occasionally in Helsinki, Finland. Feel free to reach out at [Simon.Zuerneck@nhh.no](mailto:Simon.Zuerneck@nhh.no]).
 
 ---
 
