@@ -40,6 +40,7 @@
   background: white;   /* ensure white background */
   color: black;        /* main text in black */
   padding: 2rem;
+  text-align: justify;
 }
 
 .main-content h1,
@@ -49,8 +50,4 @@
 .main-content h5,
 .main-content h6 {
   color: black;
-}
-
-.main-content p {
-  text-align: justify;
 }
