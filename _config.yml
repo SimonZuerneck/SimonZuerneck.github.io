@@ -1,3 +1,6 @@
 theme: jekyll-theme-cayman
 title: Simon Zuerneck
 description: PhD Research Scholar in Economics, NHH & FAIR
+
+plugins:
+  - jekyll-seo-tag
