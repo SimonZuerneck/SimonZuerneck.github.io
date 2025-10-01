@@ -1,4 +1,4 @@
-/* === HEADER SECTION === */
+
 .page-header {
   position: relative;
   background: url("/assets/Background.jpg") no-repeat center center;
@@ -8,7 +8,6 @@
   padding: 3rem 1rem;
 }
 
-/* Add a dark overlay to improve contrast */
 .page-header::before {
   content: "";
   position: absolute;
@@ -33,7 +32,6 @@
   color: black !important;   /* invert button on hover */
 }
 
-/* === MAIN CONTENT === */
 .main-content {
   background: white;   /* ensure white background */
   color: black;        /* main text in black */
