@@ -50,3 +50,7 @@
 .main-content h6 {
   color: black;
 }
+
+.main-content p {
+  text-align: justify;
+}
