@@ -40,7 +40,6 @@
   background: white;   /* ensure white background */
   color: black;        /* main text in black */
   padding: 2rem;
-  text-align: justify;
 }
 
 .main-content h1,
