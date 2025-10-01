@@ -1,8 +1,12 @@
+body {
+  background: white !important;
+}
+
 .page-header {
   position: relative;
-  background: url("/assets/Background.jpg") no-repeat center center;
-  background-size: cover;
-  color: white;
+  background: url("/assets/Background.jpg") no-repeat center center !important;
+  background-size: cover !important;
+  background-color: white !important; /* fallback */
 }
 
 .page-header::before {
