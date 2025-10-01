@@ -4,26 +4,20 @@
 }
 
 .page-header {
-  color: black !important;
+  position: relative;
+  background: url("/assets/Background.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
 }
 
-.page-header .project-name,
-.page-header .project-tagline,
-.page-header a.btn {
-  color: black !important;
-  border-color: black !important; /* for buttons */
+.page-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4); /* dark transparent overlay */
+}
+.page-header * {
+  position: relative;
+  z-index: 1;
 }
 
-.page-header a.btn:hover {
-  background-color: black !important;
-  color: white !important; /* invert on hover */
-}
-
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-  color: black !important;
-}
