@@ -8,6 +8,11 @@
   padding: 3rem 1rem;
 }
 
+.page-header .project-tagline {
+  color: white !important;
+  opacity: 1 !important;   /* remove translucency */
+}
+
 .page-header::before {
   content: "";
   position: absolute;
