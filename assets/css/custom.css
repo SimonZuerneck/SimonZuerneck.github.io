@@ -1,1 +1,50 @@
-body { background: white !important; } .page-header { position: relative; background: url("/assets/Background.jpg") no-repeat center center !important; background-size: cover !important; background-color: white !important; /* fallback */ } .page-header::before { content: ""; position: absolute; inset: 0; background: rgba(0,0,0,0.4); /* dark transparent overlay */ } .page-header * { position: relative; z-index: 1; } .page-header a.btn:hover { background-color: black !important; color: white !important; } .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: black !important; }
+/* === HEADER SECTION === */
+.page-header {
+  position: relative;
+  background: url("/assets/Background.jpg") no-repeat center center;
+  background-size: cover;
+  color: white; /* header text is white */
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+/* Add a dark overlay to improve contrast */
+.page-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4); /* adjust 0.4 → 0.6 for darker overlay */
+}
+
+.page-header * {
+  position: relative;
+  z-index: 1;
+}
+
+.page-header .project-name,
+.page-header .project-tagline,
+.page-header a.btn {
+  color: white !important;   /* force white header text */
+  border-color: white !important;
+}
+
+.page-header a.btn:hover {
+  background-color: white !important;
+  color: black !important;   /* invert button on hover */
+}
+
+/* === MAIN CONTENT === */
+.main-content {
+  background: white;   /* ensure white background */
+  color: black;        /* main text in black */
+  padding: 2rem;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: black;
+}
