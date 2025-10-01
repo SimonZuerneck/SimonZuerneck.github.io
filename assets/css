@@ -1,5 +1,4 @@
 .page-header {
-  background: url("/assets/header-bg.jpg") no-repeat center center;
+  background: url("/assets/background.jpg") no-repeat center center;
   background-size: cover;
 }
-
