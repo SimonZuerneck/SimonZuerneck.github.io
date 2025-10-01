@@ -10,6 +10,12 @@ body {
   background-image: none !important;  /* <-- kill Cayman gradient */
 }
 
+.page-header .project-tagline {
+  color: white !important;
+  opacity: 1 !important;   /* remove translucency */
+}
+
+
 
 .page-header::before {
   content: "";
