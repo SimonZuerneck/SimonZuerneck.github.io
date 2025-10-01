@@ -1,5 +1,5 @@
 body {
-  background: white !important;
+  background: white !important; 
 }
 
 .page-header {
@@ -7,13 +7,15 @@ body {
   background: url("/assets/Background.jpg") no-repeat center center !important;
   background-size: cover !important;
   background-color: white !important; /* fallback */
+  background-image: none !important;  /* <-- kill Cayman gradient */
 }
+
 
 .page-header::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.4); /* dark transparent overlay */
+  background: rgba(0,0,0,0.4);
 }
 .page-header * {
   position: relative;
