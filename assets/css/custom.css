@@ -22,11 +22,12 @@
 }
 
 .page-header .project-name,
-.page-header .project-tagline,
+.page-header .project-tagline {
+  opacity: 1 !important;           /* remove translucency */
+},
 .page-header a.btn {
   color: white !important;   /* force white header text */
   border-color: white !important;
-  opacity: 1 !important;    /* remove translucency */
 }
 
 .page-header a.btn:hover {
