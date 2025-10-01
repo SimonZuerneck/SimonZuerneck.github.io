@@ -1,9 +1,4 @@
 .page-header {
-  background: url("/assets/Background.jpg") no-repeat center center;
-  background-size: cover;
-}
-
-.page-header {
   position: relative;
   background: url("/assets/Background.jpg") no-repeat center center;
   background-size: cover;
