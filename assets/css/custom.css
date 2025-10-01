@@ -1,44 +1,42 @@
-/* HEADER */
+/* === HEADER SECTION === */
 .page-header {
   position: relative;
-  background: url("/assets/Background.jpg") no-repeat center center !important;
-  background-size: cover !important;
-  background-color: white !important; /* fallback */
-  background-image: none !important;  /* remove Cayman's gradient */
-  color: white; 
+  background: url("/assets/Background.jpg") no-repeat center center;
+  background-size: cover;
+  color: white; /* header text is white */
   text-align: center;
   padding: 3rem 1rem;
 }
 
+/* Add a dark overlay to improve contrast */
 .page-header::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.4); /* darken image for readability */
+  background: rgba(0,0,0,0.4); /* adjust 0.4 → 0.6 for darker overlay */
 }
 
-.page-header * { position: relative; z-index: 1; }
+.page-header * {
+  position: relative;
+  z-index: 1;
+}
 
 .page-header .project-name,
 .page-header .project-tagline,
 .page-header a.btn {
-  color: white !important;
+  color: white !important;   /* force white header text */
   border-color: white !important;
-}
-
-.page-header .project-tagline {
-  opacity: 1 !important;           /* remove translucency */
 }
 
 .page-header a.btn:hover {
   background-color: white !important;
-  color: black !important;
+  color: black !important;   /* invert button on hover */
 }
 
-/* MAIN CONTENT */
+/* === MAIN CONTENT === */
 .main-content {
-  background: white;
-  color: black;
+  background: white;   /* ensure white background */
+  color: black;        /* main text in black */
   padding: 2rem;
 }
 
@@ -50,6 +48,3 @@
 .main-content h6 {
   color: black;
 }
-
-/* Optional: ensure whole page background is white */
-body { background: white !important; }
