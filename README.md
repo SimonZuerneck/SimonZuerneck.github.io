@@ -1,2 +1,2 @@
-# simonzuerneck.github.io
+# SimonZuerneck.github.io
 Personal Website
