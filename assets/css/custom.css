@@ -3,6 +3,8 @@
   position: relative;
   background: url("/assets/Background.jpg") no-repeat center center;
   background-size: cover;
+  background-color: white !important; /* fallback */
+  background-image: none !important;  /* remove Cayman's gradient */
   color: white; /* header text is white */
   text-align: center;
   padding: 3rem 1rem;
