@@ -5,7 +5,7 @@ title: "Simon Zuerneck"
 
 # About me
 
-<img src="/assets/Picture_Zuerneck_NHH.jpg" alt="Simon Zuerneck" width="200" style="border-radius:50%;">
+<img src="/assets/Picture_Zuerneck_smiley_quadrat.jpg" alt="Simon Zuerneck" width="200" style="border-radius:50%;">
 
 Hei! I am Simon, a second-year PhD Research Scholar in Economics at the Norwegian School of Economics, affiliated with [FAIR - Center for Experimental Research on Fairness, Inequality and Rationality](https://www.nhh.no/en/research-centres/fair/).
 
